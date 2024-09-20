@@ -1,12 +1,9 @@
 # SugarCane
 
-This page shows the results of applying our proposed representation to the classification and regression tasks respectively. Given the number of experiments performed for each task we can say that the results fit a normal distribution, this can be verified by looking at the quantile-quantile plots that compare the distribution of the accuracy and root mean squared error (RMSE) results against a normal distribution.
+Esta sección muestra los resultados de los modelos de clasificación de hojas de caña de azúcar enfermas. Dado el número de experimentos realizados podemos afirmar que los resultados de las métricas de desempeño no siguen una distribución normal, lo cual se puede comprobar mediante los gráficos cuantil-cuantil (QQ plots), que comparan la distribución que siguen las métricas para cada modelo en el conjunto de entrenamiento, validación y test.
+Además, se presentan tablas con los resultados de las métricas para todos los modelos en todos los conjuntos de datos, utilizando una medida de tendencia central, la mediana, y de dispersión, como el rango intercuartílico (IQR).
 
-We exhibit the central tendency values for each of the performance metrics obtained. Here, the best values were obtained by using the three text components as a whole. We also present the t-tests implemented to evaluate the statistical significance of comparing the use of the three text components against each of the two-component combinations or using them marginally.
-
-Given that all the p-values are below .05, we can argue that there is a significant difference when using all text components since improvements are obtained in each of the analyzed metrics, this can also be seen in the 95% confidence intervals.
-
-## Table of contents
+## Tabla de contenidos
 1. [QQPLOTS](#qqplot-normalidad)
     1. [Accuracy](#ACCURACY%20FOTO)
     2. [Micro avg precision](#MICRO%20PRECISION)
@@ -15,7 +12,7 @@ Given that all the p-values are below .05, we can argue that there is a signific
     5. [Macro avg precision](#MACRO%20PRECISION)
     3. [Macro avg recall](#MACRO%20RECALL)
     4. [Macro avg f1](#MACRO%20F1)
-2. [TABLES](#tablas)
+2. [TABLAS](#tablas)
     1. [Accuracy](#ACCURACY)
     2. [Micro avg precision](#MI%20PRECISION)
     3. [Micro avg recall](#MI%20RECALL)

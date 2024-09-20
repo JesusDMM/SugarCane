@@ -1,6 +1,55 @@
 # SugarCane
 
-# Accuracy
+This page shows the results of applying our proposed representation to the classification and regression tasks respectively. Given the number of experiments performed for each task we can say that the results fit a normal distribution, this can be verified by looking at the quantile-quantile plots that compare the distribution of the accuracy and root mean squared error (RMSE) results against a normal distribution.
+
+We exhibit the central tendency values for each of the performance metrics obtained. Here, the best values were obtained by using the three text components as a whole. We also present the t-tests implemented to evaluate the statistical significance of comparing the use of the three text components against each of the two-component combinations or using them marginally.
+
+Given that all the p-values are below .05, we can argue that there is a significant difference when using all text components since improvements are obtained in each of the analyzed metrics, this can also be seen in the 95% confidence intervals.
+
+## Table of contents
+1. [QQPLOTS](#qqplot-normalidad)
+    1. [Accuracy](#ACCURACY%20FOTO)
+    2. [Micro avg precision](#MICRO%20PRECISION)
+    3. [Micro avg recall](#MICRO%20RECALL)
+    4. [Micro avg f1](#MICRO%20F1)
+    5. [Macro avg precision](#MACRO%20PRECISION)
+    3. [Macro avg recall](#MACRO%20RECALL)
+    4. [Macro avg f1](#MACRO%20F1)
+2. [TABLES](#tablas)
+    1. [Accuracy](#ACCURACY)
+    2. [Micro avg precision](#MI%20PRECISION)
+    3. [Micro avg recall](#MI%20RECALL)
+    4. [Micro avg f1](#MI%20F1)
+    5. [Macro avg precision](#MA%20PRECISION)
+    3. [Macro avg recall](#MA%20RECALL)
+    4. [Macro avg f1](#MA%20F1)
+
+## QQPLOT NORMALIDAD
+
+### Accuracy <a name="ACCURACY FOTO"></a>
+![qqplots](QQPLOT%20MODELS/Accuracy.png)
+
+### Micro Avg Precision <a name="MICRO PRECISION"></a>
+![qqplots](QQPLOT%20MODELS/Micro%20avg%20precision.png)
+
+### Micro Avg Recall <a name="MICRO RECALL"></a>
+![qqplots](QQPLOT%20MODELS/Micro%20avg%20recall.png)
+
+### Micro Avg F1 <a name="MICRO F1"></a>
+![qqplots](QQPLOT%20MODELS/Micro%20avg%20f1.png)
+
+### Macro Avg Precision <a name="MACRO PRECISION"></a>
+![qqplots](QQPLOT%20MODELS/Macro%20avg%20precision.png)
+
+### Macro Avg Recall <a name="MACRO RECALL"></a>
+![qqplots](QQPLOT%20MODELS/Macro%20avg%20recall.png)
+
+### Macro Avg F1 <a name="MACRO F1"></a>
+![qqplots](QQPLOT%20MODELS/Macro%20avg%20f1.png)
+
+## Tablas
+
+### Accuracy <a name="ACCURACY"></a>
 <table>
   <thead>
   <tr>
@@ -79,7 +128,7 @@
 </tbody>
 </table>
 
-# Micro Avg Presicion
+### Micro Avg Precision <a name="MI PRECISION"></a>
 <table>
   <thead>
   <tr>
@@ -158,7 +207,7 @@
 </tbody>
 </table>
 
-# Micro Avg Recall
+### Micro Avg Recall <a name="MI RECALL"></a>
 <table>
   <thead>
   <tr>
@@ -237,7 +286,7 @@
 </tbody>
 </table>
 
-# Micro Avg F1
+### Micro Avg F1 <a name="MI F1"></a>
 <table>
   <thead>
   <tr>
@@ -316,11 +365,11 @@
 </tbody>
 </table>
 
-# Macro Avg Presicion
+### Macro Avg Precision <a name="MA PRECISION"></a>
 <table>
   <thead>
   <tr>
-    <th colspan="7">Macro Avg Presicion</th>
+    <th colspan="7">Macro Avg Precision</th>
   </tr>
    <tr>
     <td rowspan="2"><b>Models</b></td>
@@ -395,7 +444,7 @@
 </tbody>
 </table>
 
-# Macro Avg Recall
+### Macro Avg Recall <a name="MA RECALL"></a>
 <table>
   <thead>
   <tr>
@@ -474,7 +523,7 @@
 </tbody>
 </table>
 
-# Macro Avg F1
+### Macro Avg F1 <a name="MA F1"></a>
 <table>
   <thead>
   <tr>
